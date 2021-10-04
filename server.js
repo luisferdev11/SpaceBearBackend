@@ -3,9 +3,9 @@ import { dataset } from './app.js';
 
 import cors from 'cors';
 
-app.use(cors())
-
 const app = express();
+
+app.use(cors())
 
 app.get('/', (req, res) => {
     res.send(dataset);
