@@ -31,8 +31,10 @@ const cosmos = 'https://celestrak.com/NORAD/elements/cosmos-2251-debris.txt';
 const iridium = 'https://celestrak.com/NORAD/elements/iridium-33-debris.txt';
 const fenyun = 'https://celestrak.com/NORAD/elements/1999-025.txt';
 const microsat = 'https://celestrak.com/NORAD/elements/2019-006.txt';
+const NOARD = 'https://celestrak.com/NORAD/elements/active.txt';
 
 export const dataCosmosTLE = await GetData(cosmos);
 export const dataIridiumTLE = await GetData(iridium);
 export const dataFenyunTLE = await GetData(fenyun);
 export const dataMicrosatTLE = await GetData(microsat);
+export const dataNOARDTLE = await GetData(NOARD);
