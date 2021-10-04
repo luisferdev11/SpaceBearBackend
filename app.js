@@ -79,4 +79,3 @@ for (let i = 1; i < 4; i++) {
 
 
 export const dataset = dataCosmosJSON.concat(dataTheOtherOnesJSON.concat(dataNOARDJSON));
-console.log(dataset);
